@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ .container{
+    background-color: #e5e5fd;
+    min-height: 100vh;
+    border: 10px solid #1d1e4c;
+ }
+ .content{
+    max-width: 900px;
+    margin: 0 auto;
+ }
+ .top-section{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+ }
+ .top-section h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #1d1e4c;
+    text-transform: uppercase;
+  }
+  .top-section h4 {
+    font-size: 30px;
+    text-align: end;
+  }
+  
+  .image_container {
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  
+  .image_container,
+  img {
+    width: 300px;
+    height: 320px;
+  }
+  .about_section {
+    margin-top: 50px;
+  }
+  .about_section h2 {
+    font-size: 50px;
+    font-weight: 400;
+    margin-bottom: 20px;
+  }
+  .about_section p {
+    font-size: 20px;
+    line-height: 20px;
+    text-align: justify;
+    letter-spacing: 1.2px;
+  }
+  .Early_life_and_career{
+    margin-top: 20px;
+  }
+  .Early_life_and_career h2{
+    font-size: 50px;
+    font-weight: 400;
+    margin-bottom: 20px;
+  }
+  .Early_life_and_career p{
+    font-size: 20px;
+    line-height: 20px;
+    text-align: justify;
+    letter-spacing: 1.2px;
+  }
+  .revolutionary_activities {
+    margin: 20px 0;
+  }
+  .revolutionary_activities h2 {
+    font-size: 50px;
+    font-weight: 400;
+    margin-bottom: 20px;
+  }
+  .revolutionary_activities ul {
+    margin-left: 50px;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: justify;
+    letter-spacing: 1.2px;
+  }
+  .revolutionary_activities li {
+    margin-bottom: 10px;
+  }
+  footer {
+    margin: 50px 0;
+  }
+  footer p {
+    text-align: end;
+  }
